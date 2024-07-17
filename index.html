@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Biodata</h2>
+        <form action="submit.php" method="POST">
+            <label for="nama">Nama:</label><br>
+            <input type="text" id="nama" name="nama" required><br><br>
+            
+            <label for="umur">Umur:</label><br>
+            <input type="number" id="umur" name="umur" required><br><br>
+            
+            <label for="alamat">Alamat:</label><br>
+            <textarea id="alamat" name="alamat" rows="4" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <br>
+        <a href="index.php">Lihat Data Biodata</a>
+    </div>
+</body>
+</html>
